@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-
+}
+
+.none {
+	display: none !important;
+}
+
+h1 {
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.posts-list {
+	padding: 20px;
+}
+
+.card {
+	padding: 20px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.card-inner {
+	width: 80%;
+}
+
+.card-inner h2 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.card-inner div {
+	font-size: 16px;
+}
+
+.card input {
+	align-self: start;
+	margin: 5px 15px 0 0;
+}
+
+.card button {
+	margin-top: 20px;
+	background-color: transparent;
+	border: 1px solid red;
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	margin: 0 auto;
+	cursor: pointer;
+	align-self: center;
+}
+
+.card button:hover {
+	background-color: red;
+}
+
+.checked {
+	background-color: rgb(213, 245, 214);
+}
